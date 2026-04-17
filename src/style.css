@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --primary-purple: #5A189A; /* To match Figma purple roughly */
+}
+
+@theme {
+  --color-primary-purple: #5A189A;
+  --color-primary-hover: #7b2cbf;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f7f7f9; /* Off-white background */
+}
