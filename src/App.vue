@@ -5,7 +5,7 @@ const email = ref('')
 const password = ref('')
 const rememberMe = ref(false)
 
-const handleTestLogin = async () => {
+const handleLogin = async () => {
   try {
     const response = await fetch('http://localhost:3000/login', {
       method: 'POST',
